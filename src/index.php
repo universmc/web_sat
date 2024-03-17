@@ -8,9 +8,15 @@
   <link rel="stylesheet" href="src/css/pi-styles.css">
 </head>
 <body>
+  <?php include 'inc/header.php'; ?>
 <main>
-    <section class="app">
-      <iframe class="windows" src="http://localhost:5145/index.php" frameborder="0"></iframe>
+    <section>
+      <h1>Votre sphère interactive</h1>
+      <div id="sphere"></div>
+      <!-- Your interactive sphere and main content here -->
     </section>
+  </main>
+  <?php include 'inc/footer.php'; ?>
+<script src="js/script-sphere.js"></script>
 </body>
 </html>

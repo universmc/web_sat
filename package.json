@@ -10,7 +10,9 @@
   "make": "electron-forge make",
   "publish": "electron-forge publish",
   "lint": "echo \"No linting configured\"",
-  "style": "sass --watch src/sass/build.scss src/css/style.css"
+  "style": "sass --watch src/sass/style.scss src/css/style.css",
+  "aiSp": "sass src/sass/sphere-ia.scss src/css/pi.css"
+
 },
 "keywords": [],
 "author": {
